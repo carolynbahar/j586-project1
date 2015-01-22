@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Myriad;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+body{
+    font-family: Myriad;
+    font-size: 12px;
+}
+
+.left
+    {float: left;}
+
+.right
+    {float: right;}
+
+h1{
+    font-size: 3em;
+    color: #2498f4;
+}
+
+h5{
+    font-size: 2em;
+    color: #fe7f13;
+}
+
+.mini{
+    background-color: #208de4;
+    color: white;
+    min-height: 45px;
+    text-align: right;
+    padding: 1em;
+    font-size: 14px;
+}
+
+.nav{
+    min-height: 110px;
+    background-color: #134670;
+}
+
+.dash{
+    min-height: 105px;
+    font-size: 36pt;
+    color: white;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.dash-green{
+    background-color: #33cc66;
+    min-height: 76px;
+    width: 100%;
+    border: 0 solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: .15em;
+    padding-bottom: .15em;
+}
+
+.main{
+    background-color: white;
+    width: 99.5%;
+    margin: 0 auto;
+    position: relative;
+    top: -13em;
+    border: 1px solid #eeeeee;
+}
+
+.gray-right-line{
+    border-right: 1px solid #eeeeee;
+    height:100%;
+}
+
+.announce{
+    height: 51px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.gray-box{
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #f6f6f6,
+            white
+         );
+    border-image:
+        linear-gradient(
+            to bottom,
+            #eeeeee,
+            white
+        )
+}
+
+.no-pad{
+    padding: 0;
+}
+
+.tasks{
+    border-left:1px #eeeeee solid;
+    border-bottom:1px #eeeeee solid;
+    min-height: 300px;
+}
+
+.tasks ol{
+    color: red;
+    padding-left: 20px;
+}
+
+.recommendations{
+    border-left:1px #eeeeee solid;
+    min-height: 556px;
+}
+
+.analytics{
+    border-left:1px #eeeeee solid;
+    border-right:1px #eeeeee solid;
+    border-bottom:1px #eeeeee solid;
+    min-height: 260px;
+}
+
+.people{
+    border-right:1px #eeeeee solid;
+    border-bottom:1px #eeeeee solid;
+    border-left:1px #eeeeee solid;
+    min-height: 268px;
+}
+
+.questions{
+    border-left:1px #eeeeee solid;
+    border-right:1px #eeeeee solid;
+    color: white;
+    min-height: 130px;
+}
+
+.ads{
+    background: #2498f4;
+    height: 220px;
+    margin-bottom: 5em;
+}
+
+#footer{
+    position: relative;
+    top: -5em;
+    min-height: 50px;
+    background: #fafafa;
+    border: 1px solid red;
+}
