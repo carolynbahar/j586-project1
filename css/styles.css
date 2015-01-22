@@ -102,7 +102,6 @@ h1{
 }
 
 .tasks{
-    border-left:1px #eeeeee solid;
     border-bottom:1px #eeeeee solid;
     min-height: 300px;
     font-size: 21px;
@@ -123,7 +122,6 @@ h1{
 }
 
 .recommendations{
-    border-left:1px #eeeeee solid;
     min-height: 556px;
 }
 
