@@ -106,13 +106,22 @@ h1{
     color: #2498f3;
 }
 
-.tasks a:hover{
+a:hover .tasks {
     color: #cccccc;
     text-decoration: none;
 }
 
 .tasks ol{
     padding-left: 20px;
+}
+
+.task-box{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    padding: .2em;
 }
 
 .recommendations{
@@ -124,6 +133,11 @@ h1{
     border-right:1px #eeeeee solid;
     border-bottom:1px #eeeeee solid;
     min-height: 260px;
+}
+
+.table{
+    border-right: 1px solid #dddddd;
+    
 }
 
 .people{
