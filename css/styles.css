@@ -58,8 +58,19 @@ h1{
     padding-bottom: .15em;
 }
 
-.search{
-    position: absolute;
+.searchinput{
+    width: 258px;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+.search-icon{
+    position: relative;
+        top: -1.1em;
+        left: -.4em;
+    color: #2498f4;
+    font-size: 25px;
+    float: right;
 }
 
 .main{
@@ -110,12 +121,18 @@ h1{
     color: #2498f3;
 }
 
+.tasks a:visited{
+    color: #2498f3;
+}
+
 .tasks a:hover{
     color: #cccccc;
     text-decoration: none;
 }
 
 .tasks ol{
+    border: solid 2px #32cc66;
+    border-radius: 10px;
     padding-left: 20px;
 }
 
@@ -127,6 +144,10 @@ h1{
     font-size: 16px;
     padding: .2em;
     float: right;
+}
+
+.line-under{
+    border-bottom: 1px solid #eeeeee;
 }
 
 .recommendations{
