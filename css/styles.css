@@ -217,6 +217,7 @@ ol{
     border: solid #f2f2f2 1px;
     border-radius: 5px;
     box-shadow: 1px 1px 2px #888888;
+    margin: 0 auto;
 }
 
 .customer-icon{
@@ -226,15 +227,7 @@ ol{
         top: -2.25em;
 }
 
-.green-customer{
-    padding-left: 10em;
-    padding-top: 4em;
-    border-bottom:1px #eeeeee solid;
-    border-left:1px #eeeeee solid;
-    min-height: 268px;
-}
-
-.orange-customer{
+.customer{
     padding-top: 4em;
     border-bottom:1px #eeeeee solid;
     min-height: 268px;
@@ -244,7 +237,7 @@ ol{
     background-color: #2394ee;
     color: white;
     height: 50px;
-    width: 210px;
+    width: 211px;
     margin: 0 auto;
     position: relative;
         top: -2.2em;
@@ -284,6 +277,15 @@ ol{
     border-right:1px #eeeeee solid;
     color: white;
     min-height: 130px;
+}
+
+.blue-box{
+    background-color: #2498f4;
+    min-height: 140px;
+    width: 95%;
+    margin: 0 auto;
+    border: solid 1px #2498f4;
+    border-radius: 3px;
 }
 
 .ads{
