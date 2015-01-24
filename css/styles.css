@@ -169,6 +169,8 @@ ol{
 
 .line-under{
     border-bottom: 1px solid #eeeeee;
+    padding-bottom: .75em;
+    padding-top: .75em;
 }
 
 
@@ -188,12 +190,50 @@ ol{
     border-right: 1px solid #dddddd;
     
 }
+/*CUSTOMER*/
+.customer-box{
+    height: 197px;
+    width: 212px;
+    border: solid #f2f2f2 1px;
+    border-radius: 5px;
+}
 
-.people{
+.customer-icon{
+    padding-left: 5.25em;
+    padding-right: 5.25em;
+    position: relative;
+        top: -2.25em;
+}
+
+.customer{
+    padding-top: 4em;
     border-right:1px #eeeeee solid;
     border-bottom:1px #eeeeee solid;
     border-left:1px #eeeeee solid;
     min-height: 268px;
+}
+
+.ribbon{
+    background-color: #2394ee;
+    color: white;
+    height: 50px;
+    width: 210px;
+    margin: 0 auto;
+    position: relative;
+        top: -2.2em;
+}
+
+.ribbon-ends{
+    position: relative;
+        left: -15px;
+        top: -6em;
+}
+
+.customer-graph{
+    padding-left: .65em;
+    padding-right: .65em;
+    position: relative;
+        top: -4.25em;
 }
 
 .questions{
