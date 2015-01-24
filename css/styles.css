@@ -179,23 +179,44 @@ ol{
     min-height: 556px;
 }
 
+
+/*ANALYTICS*/
 .analytics{
     border-left:1px #eeeeee solid;
-    border-right:1px #eeeeee solid;
     border-bottom:1px #eeeeee solid;
     min-height: 260px;
+    padding-left: 40px;
 }
 
-.table{
-    border-right: 1px solid #dddddd;
-    
+.btn-group{
+    position: relative;
+        top: -3.5em;
+        left: -27em;
 }
+
+.caret{
+    color: #fe7f13;
+}
+
+.separate-data{
+    border-right: 1px solid #dddddd;
+    position: relative;
+        top: -2em;
+        left: -1.5em;
+}
+
+.pie{
+    position: relative;
+        top: -6em;
+}
+
 /*CUSTOMER*/
 .customer-box{
     height: 197px;
     width: 212px;
     border: solid #f2f2f2 1px;
     border-radius: 5px;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 .customer-icon{
