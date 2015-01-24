@@ -211,6 +211,12 @@ ol{
 }
 
 /*CUSTOMER*/
+.customer{
+    padding: 4em 0 0 0;
+    border-bottom:1px #eeeeee solid;
+    min-height: 268px;
+}
+
 .customer-box{
     height: 197px;
     width: 212px;
@@ -224,13 +230,7 @@ ol{
     padding-left: 5.25em;
     padding-right: 5.25em;
     position: relative;
-        top: -2.25em;
-}
-
-.customer{
-    padding-top: 4em;
-    border-bottom:1px #eeeeee solid;
-    min-height: 268px;
+        top: -2.2em;
 }
 
 .ribbon{
@@ -275,20 +275,31 @@ ol{
 .questions{
     border-left:1px #eeeeee solid;
     border-right:1px #eeeeee solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: white;
-    min-height: 130px;
+    font-size: 15px;
+    height: 11.5em;
 }
 
 .blue-box{
+    padding: 1.65em 5em 1.65em 5em;
     background-color: #2498f4;
     min-height: 140px;
-    width: 95%;
+    width: 99%;
     margin: 0 auto;
     border: solid 1px #2498f4;
     border-radius: 3px;
 }
 
+.arrow{
+    padding: 0 .25em 0 .23em;
+    position: relative;
+        top:-6.5em;
+}
+
 .ads{
+    border: 1px solid red;
     background: #2498f4;
     height: 220px;
     margin-bottom: 5em;
