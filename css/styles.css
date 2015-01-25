@@ -179,6 +179,23 @@ ol{
     min-height: 556px;
 }
 
+ul{
+    list-style-type: none;
+    padding-left: 1px;
+}
+
+.recommendation-txt{
+    border-bottom: 1px dotted #e5e5e5;
+    font-size: 10px;
+    position: relative;
+        top: -3.5em;
+        right: -3.5em;
+}
+
+.big{
+    font-size: 16px;
+}
+
 
 /*ANALYTICS*/
 .analytics{
@@ -272,6 +289,7 @@ ol{
         top: -18.15em;
 }
 
+/*QUESTIONS*/
 .questions{
     border-left:1px #eeeeee solid;
     border-right:1px #eeeeee solid;
