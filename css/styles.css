@@ -176,7 +176,6 @@ ol{
 
 /*RECOMMENDATIONS*/
 .recommendations{
-    min-height: 556px;
 }
 
 ul{
@@ -317,16 +316,21 @@ ul{
 }
 
 .ads{
-    border: 1px solid red;
     background: #2498f4;
+    box-shadow: 0 1px 2px #888888;
     height: 220px;
-    margin-bottom: 5em;
 }
 
-#footer{
-    position: relative;
-    top: -5em;
+.footer{
+    border-top: 4px solid white;
+    box-shadow: 0 -5px 3px #e5e5e5;
     min-height: 50px;
     background: #fafafa;
-    border: 1px solid red;
+    font-size: 14px;
+    padding-top: 1em;
+}
+
+.footer a:link{
+    color: #2498f2;
+    font-weight: bold;
 }
