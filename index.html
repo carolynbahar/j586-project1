@@ -66,23 +66,38 @@
    
       <div class="col-md-4 no-pad">
         <div class="col-md-12 tasks">
-          <span class="task-hd">Tasks</span> <img class="task-wrench" src="images/task-wrench.png">
-          <ol>
-            <li class="line-under"><a href="#">Welcome Contacts</a> <a href"#"><div class="task-box"><img src="images/ppl-count.png">&nbsp; 32</div></a></li>
-            <li class="line-under"><a href="#">Provide Responses</a> <a href"#"><div class="task-box"><img src="images/ppl-count.png">&nbsp; 36</div></a></li>
-            <li class="line-under"><a href="#">Review Activity</a> <a href"#"><div class="task-box"><img src="images/ppl-count.png">&nbsp; 36</div></a></li>
-            <li><a href="#">Reach Out</a> <a href"#"><div class="task-box"><img src="images/ppl-count.png">&nbsp; 3</div></a></li>
-          </ol>
+          <span class="task-hd">Tasks</span> <a href="#"><img class="task-wrench" src="images/task-wrench.png"></a>
+          
+            <div class="row task-row">
+              <a href="#"><div class="bullet">1</div>Welcome Contacts <div class="task-box"><img src="images/ppl-count.png">&nbsp; 32</div></a>
+            </div>
+            <div class="row task-row">
+              <a href="#"><div class="bullet">2</div>Provide Responses <div class="task-box"><img src="images/ppl-count.png">&nbsp; 36</div></a>
+            </div>
+            <div class="row task-row">
+              <a href="#"><div class="bullet">3</div>Review Activity <div class="task-box"><img src="images/ppl-count.png">&nbsp; 36</div></a>
+            </div>
+            <div class="row task-row">
+              <a href="#"><div class="bullet">4</div>Reach Out</a> <a href"#"><div class="task-box"><img src="images/ppl-count.png">&nbsp; 3</div></a>
+            </div>
+          
         </div>
         
-        <div class="col-md-12 recommendations">
+        <div class="col-md-12 rec">
           <h1>Recommendations</h1>
-          <ul>
-            <li><img src="images/paper.png"><div class="recommendation-txt">Article<br><span class="big">7 Steps to getting more Fans</span></div></li>
-            <li><img src="images/paper.png"><div class="recommendation-txt">Article<br><span class="big">Increase tractions with more Interactions</span></div></li>
-            <li><img src="images/check.png"><div class="recommendation-txt">Checklist<br><span class="big">Creating a Promotion</span></div></li>
-            <li><img src="images/lightbulb.png"><div class="recommendation-txt">Tip<br><span class="big">Share More</span></div></li>
-          </ul>
+
+          <div class="row recommendations">
+            <img class="rec-img" src="images/paper.png"><div class="recommendation-txt"><span class="small">Article</span><br>7 Steps to getting more Fans</div>
+          </div>
+          <div class="row recommendations">
+            <img class="rec-img" src="images/paper.png"><div class="recommendation-txt"><span class="small">Article</span><br>Increase tractions with more <br/>Interactions</div>
+          </div>
+          <div class="row recommendations">
+            <img class="rec-img" src="images/check.png"><div class="recommendation-txt"><span class="small">Checklist</span><br>Creating a Promotion</div>
+          </div>
+          <div class="row recommendations">
+            <img class="rec-img" src="images/lightbulb.png"><div class="recommendation-txt"><span class="small">Tip</span><br>Share More</div>
+          </div>
           
         </div> <!--closes Recommendation-->
         
@@ -91,9 +106,11 @@
       <div class="col-md-8 no-pad">
         <div class="col-lg-12 analytics">
           <h1>Analytics</h1><br>
-          <p><span style="font-size:13px">ACTIVITY</span>
           
-          <div class="btn-group right">
+          <div class="col-md-8 separate-data">
+            <p><span style="font-size:13px">ACTIVITY</span>
+              
+            <div class="btn-group right">
             <button type="button" class="btn btn-default">06/28/11 - 07/21/11</button>
               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
               <span class="caret"></span>
@@ -108,8 +125,14 @@
             </ul>
           </div><!--closes button grp-->
           
-          <img class="separate-data" src="images/analytics-tbl.png">
-          <!--<img class="right pie" src="images/pie-chart.png">-->
+          <img src="images/analytics-tbl.png">
+          </div>
+          
+          
+          <div class="col-md-4">
+            <img class="right pie" src="images/pie-chart.png">
+          </div>
+          
           
         </div><!--closes analytics-->
         
@@ -154,16 +177,16 @@
       
       </div> <!--closes col-md-8-->
       
-      
+       
         <div class="col-md-12 ads">
           <div class="col-md-4">
-            ad1
+            <div class="ad-box"><img src="images/ad1.png"></div>
           </div>
           <div class="col-md-4">
-            ad2
+            <div class="ad-box"><img src="images/ad2.png"></div>
           </div>
           <div class="col-md-4">
-            ad3
+            <div class="ad-box"><img src="images/ad3.png"></div>
           </div>
         </div>
      </div> <!--closes "main"-->
