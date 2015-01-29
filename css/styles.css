@@ -338,6 +338,14 @@ h1{
     height: 160px;
     border-radius: 7px;
     margin: 0 auto;
+    box-shadow: 1px 1px 1px #1f81d0;
+}
+
+.top-head{
+    margin: 0 auto;
+    position: relative;
+    left: 11.5em;
+    top: -14.5em
 }
 
 .footer{
