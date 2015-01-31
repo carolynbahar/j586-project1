@@ -1,17 +1,100 @@
-.question, .wrench{
+.dashboard-icon, .dashboard-icon:hover, .custom-icon, .custom-icon:hover, .msg-icon:hover, .msg-icon, .promo-icon, .promo-icon:hover, .pgcreator-icon, .pgcreator-icon:hover, .analytics-icon, .analytics-icon:hover{
 	background: url(sprites.png) no-repeat;
-	display: block;
+	display: inline-block;
 }
 
-.question{
-	background-position: -50px 0;
-	width: 20px;
-	height: 20px;
+.dashboard-icon{
+	background-position: -7px -7px ;
+	width: 59px;
+	height: 73px;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
-.wrench{
-	background-position: 0 0;
-	width: 20px;
-	height: 20px;
+.dashboard-icon:hover{
+	background-position: -87px -7px ;
+	width: 59px;
+	height: 73px;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
+.custom-icon{
+	background-position: -185px -10px ;
+	width: 62px;
+	height: 64px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.custom-icon:hover{
+	background-position: -269px -10px ;
+	width: 62px;
+	height: 64px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.msg-icon:hover{
+	background-position: -447px -14px ;
+	width: 58px;
+	height: 65px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.msg-icon{
+	background-position: -371px -12px ;
+	width: 58px;
+	height: 65px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.promo-icon{
+	background-position: -11px -150px ;
+	width: 53px;
+	height: 69px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.promo-icon:hover{
+	background-position: -90px -150px ;
+	width: 53px;
+	height: 69px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.pgcreator-icon{
+	background-position: -188px -150px ;
+	width: 45px;
+	height: 70px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.pgcreator-icon:hover{
+	background-position: -258px -150px ;
+	width: 45px;
+	height: 70px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.analytics-icon{
+	background-position: -362px -151px ;
+	width: 44px;
+	height: 66px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.analytics-icon:hover{
+	background-position: -429px -150px ;
+	width: 44px;
+	height: 66px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
