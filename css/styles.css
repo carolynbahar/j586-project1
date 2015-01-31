@@ -59,11 +59,14 @@ h1{
 }
 
 .nav-bkg{
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 
 .navigation-icons{
    text-align: center;
+   padding-top: 2em;
+   margin: -10em;
 }
 
 /*DASHBOARD AND SEARCH*/
