@@ -55,7 +55,11 @@ h1{
 .nav{
     height: 110px;
     background-color: #134670;
-    line-height: 0;
+}
+
+.small-nav{
+    height: 60px;
+    background-color: #134670;
 }
 
 .nav-bkg{
@@ -67,6 +71,11 @@ h1{
    text-align: center;
    padding-top: 2em;
    margin: -10em;
+}
+
+.toggle-menu{
+   margin-top: -3.75em;
+   padding-left: 1em;
 }
 
 /*DASHBOARD AND SEARCH*/
