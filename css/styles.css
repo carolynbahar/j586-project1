@@ -70,7 +70,7 @@ h1{
 .navigation-icons{
    text-align: center;
    padding-top: 2em;
-   margin: -10em;
+   margin: -9.9em;
 }
 
 .toggle-menu{
@@ -149,7 +149,6 @@ h1{
     min-height: 50px;
     border-bottom: 1px solid #eeeeee;
     font-size: 1.2em;
-    padding-bottom: 1.2em;
     padding-top: 1.2em;
 }
 
@@ -213,10 +212,9 @@ h1{
     width: 60px;
     height: 30px;
     font-size: 16px;
-    padding: .2em;
+    padding: .25em;
     float: right;
 }
-
 
 
 
@@ -457,4 +455,8 @@ h1{
     margin-top: -.75em;
     box-shadow: 1px 1px 2px #888888;
     margin-right: 1em;
+}
+
+.social-mobile{
+    margin-top: -1.5em;
 }

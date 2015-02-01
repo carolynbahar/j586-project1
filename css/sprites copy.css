@@ -10,21 +10,21 @@
 	margin: 0 1.5em 0 1.5em;
 }
 
-.dashboard-icon:hover{
+.dashboard-icon-green{
 	background-position: -87px -5px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
-.custom-icon{
+.customer-icon{
 	background-position: -219px -2px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
-.custom-icon:hover{
+.customer-icon-green{
 	background-position: -311px -1px ;
 	width: 62px;
 	height: 95px;
@@ -38,7 +38,7 @@
 	margin: 0 1.5em 0 1.5em;
 }
 
-.msg-icon:hover{
+.msg-icon-green{
 	background-position: -514px -3px ;
 	width: 62px;
 	height: 95px;
@@ -52,7 +52,7 @@
 	margin: 0 1.5em 0 1.5em;
 }
 
-.promo-icon:hover{
+.promo-icon-green{
 	background-position: -100px -140px ;
 	width: 62px;
 	height: 95px;
@@ -66,7 +66,7 @@
 	margin: 0 1.5em 0 1.5em;
 }
 
-.pgcreator-icon:hover{
+.pgcreator-icon-green{
 	background-position: -320px -140px ;
 	width: 62px;
 	height: 95px;
@@ -80,7 +80,7 @@
 	margin: 0 1.5em 0 1.5em;
 }
 
-.analytics-icon:hover{
+.analytics-icon-green{
 	background-position: -522px -137px ;
 	width: 62px;
 	height: 95px;
@@ -91,11 +91,13 @@
 	background-position: -27px -249px ;
 	width: 22px;
 	height: 22px;
+	margin: 0 1.5em 0 1.5em;
 }
 
-.ppl-count:hover{
+.ppl-count-gray{
 	background-position: -77px -251px ;
 	width: 22px;
 	height: 22px;
+	margin: 0 1.5em 0 1.5em;
 }
 
