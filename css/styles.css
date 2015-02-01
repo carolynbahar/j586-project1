@@ -142,6 +142,7 @@ h1{
 .gray-right-line{
     border-right: 1px solid #eeeeee;
     height:100%;
+    
 }
 
 .announce{
@@ -221,10 +222,6 @@ h1{
 
 /*RECOMMENDATIONS*/
 
-.rec{
-    
-}
-
 .recommendations{
     font-size: 16px;
     border-bottom: 1px dotted #e5e5e5;
@@ -250,7 +247,7 @@ h1{
     border-left:1px #eeeeee solid;
     border-bottom:1px #eeeeee solid;
     min-height: 300px;
-    padding-bottom: 5em;
+    padding-bottom: 3em;
 }
 
 .btn-group{
@@ -268,16 +265,38 @@ h1{
 }
 
 .pie{
-
+    padding-left: 2em;
 }
 
 .check{
-    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
 }
 
+
+.analytics-small{
+    border-left:1px #eeeeee solid;
+    border-bottom:1px #eeeeee solid;
+    min-height: 300px;
+    padding-bottom: 3em;
+    padding-left:2em;
+    padding-right: 2em;
+}
+
+.check-small{
+    line-height: 2em;
+    display: inline-block;
+    padding-left: 3em;
+}
+
+
+
 /*CUSTOMER*/
-.customer{
+.left-line{
     border-left: 1px #eeeeee solid;
+}
+
+.customer{
     padding: 4em 0 0 0;
     border-bottom:1px #eeeeee solid;
     min-height: 268px;
@@ -286,7 +305,7 @@ h1{
 .customer-box{
     height: 197px;
     width: 212px;
-    border: solid #f2f2f2 1px;
+    border-right: solid #f2f2f2 1px;
     border-radius: 5px;
     box-shadow: 1px 1px 2px #888888;
     margin: 0 auto;
@@ -303,7 +322,7 @@ h1{
     background-color: #2394ee;
     color: white;
     height: 50px;
-    width: 211px;
+    width: 213px;
     margin: 0 auto;
     position: relative;
         top: -2.2em;
@@ -341,22 +360,11 @@ h1{
 /*QUESTIONS*/
 .questions{
     border-left:1px #eeeeee solid;
-    border-right:1px #eeeeee solid;
     padding-top: 1em;
     padding-bottom: 1em;
     color: white;
     font-size: 15px;
     height: 11.5em;
-}
-
-.question{
-    border-left:1px #eeeeee solid;
-    border-right:1px #eeeeee solid;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: white;
-    font-size: 15px;
-    min-height: 11.5em;
 }
 
 .blue-box{
