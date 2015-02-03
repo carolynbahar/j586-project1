@@ -4,97 +4,97 @@
 }
 
 .dashboard-icon{
-	background-position: -9px -7px ;
+	background-position: -4px -4px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .dashboard-icon:hover{
-	background-position: -87px -5px ;
+	background-position: -82px -4px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .custom-icon{
-	background-position: -219px -2px ;
+	background-position: -201px -5px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .custom-icon:hover{
-	background-position: -311px -1px ;
+	background-position: -281px -4px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .msg-icon{
-	background-position: -438px 0;
+	background-position: -394px -6px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .msg-icon:hover{
-	background-position: -514px -3px ;
+	background-position: -475px -8px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .promo-icon{
-	background-position: -11px -140px ;
+	background-position: -6px -139px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .promo-icon:hover{
-	background-position: -100px -140px ;
+	background-position: -78px -140px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .pgcreator-icon{
-	background-position: -221px -140px ;
+	background-position: -199px -140px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .pgcreator-icon:hover{
-	background-position: -320px -140px ;
+	background-position: -283px -143px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .analytics-icon{
-	background-position: -433px -137px ;
+	background-position: -391px -137px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .analytics-icon:hover{
-	background-position: -522px -137px ;
+	background-position: -468px -136px ;
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
 }
 
 .ppl-count{
-	background-position: -27px -249px ;
+	background-position: -17px -277px ;
 	width: 22px;
 	height: 22px;
 }
 
 .ppl-count:hover{
-	background-position: -77px -251px ;
+	background-position: -75px -278px ;
 	width: 22px;
 	height: 22px;
 }

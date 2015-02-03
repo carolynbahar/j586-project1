@@ -1,4 +1,4 @@
-.dashboard-icon, .dashboard-icon:hover, .custom-icon, .custom-icon:hover, .msg-icon, .msg-icon:hover, .promo-icon, .promo-icon:hover, .pgcreator-icon, .pgcreator-icon:hover, .analytics-icon, .analytics-icon:hover{
+.dashboard-icon, .dashboard-icon:hover, .custom-icon, .custom-icon:hover, .msg-icon, .msg-icon:hover, .promo-icon, .promo-icon:hover, .pgcreator-icon, .pgcreator-icon:hover, .analytics-icon, .analytics-icon:hover, .ppl-count, .ppl-count:hover{
 	background: url(sprites.png) no-repeat;
 	display: inline-block;
 }
@@ -85,5 +85,17 @@
 	width: 62px;
 	height: 95px;
 	margin: 0 1.5em 0 1.5em;
+}
+
+.ppl-count{
+	background-position: -27px -249px ;
+	width: 22px;
+	height: 22px;
+}
+
+.ppl-count:hover{
+	background-position: -77px -251px ;
+	width: 22px;
+	height: 22px;
 }
 
